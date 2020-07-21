@@ -1,0 +1,42 @@
+h4 {
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+input[type="checkbox"] {
+    width: 1.5em;
+    height: 1.5em;
+}
+
+.todo-list__wrapper {
+    padding: 2rem 0;
+}
+
+.todo-list {
+    padding: 1rem 0;
+}
+
+.todo-list__item-container {
+    padding-top: 0.5rem;
+}
+
+.todo-list__todo-item {
+    display: flex;
+    align-content: center;
+}
+
+.text-through {
+    text-decoration: line-through;
+}
+
+.todo-list__todo-item h4 {
+    align-self: center;
+    padding: 0 1rem;
+}
+
+.todo-list__todo-item button {
+    padding: 0.1rem 0.5rem;
+}
